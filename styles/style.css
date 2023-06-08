@@ -791,6 +791,10 @@ footer a i{
         position: relative;
         top: 40px;
     }
+    .social-icons{
+        display: flex;
+        justify-content: space-evenly;
+    }
     .liquid-shape{
         width: 80%;
         left: 10%;
@@ -812,6 +816,9 @@ footer a i{
     .about .img-about img{
         position: relative;
         top: 30px;
+    }
+    #lc{
+        margin: 0 auto;
     }
 }
 @media all and (max-width:420px) {
@@ -835,6 +842,14 @@ footer a i{
         transform: none;
         transition: 0.3s;
     
+    }
+    #lc{
+        margin: 0 auto;
+    }
+    .social-icons{
+        position: relative;
+        top: 30px;
+        width: 100%;
     }
 
 }
