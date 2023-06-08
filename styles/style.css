@@ -750,6 +750,9 @@ footer a i{
     .social-icons{
         margin-top: 2rem;
     }
+    #lc{
+        margin: 0 auto;
+    }
 }
 @media all and (max-width:768px) {
     #menu-icon{
